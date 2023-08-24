@@ -1,0 +1,6 @@
+.box {
+    border-color: black;
+    border-left: 50px;
+    border-top: 100px;
+    align-items: center;
+}
