@@ -1,6 +1,35 @@
-.box {
-    border-color: black;
-    border-left: 50px;
-    border-top: 100px;
-    align-items: center;
+.rectangle {
+    width: 1000px;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin: 20px auto;
+    background-color: white
+}
+
+.name {
+    color: black;
+    font-family: monospace;
+    font-size: 35px;
+    text-align: center;
+}
+
+.maintext {
+    font-family: 'Courier New', Courier, monospace;
+    display: block;
+    margin-left: 250px;
+    font-size: large;
+    margin-right: 250px;
+}
+
+.image-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+
+.rounded-img {
+    border-radius: 100%;
 }
